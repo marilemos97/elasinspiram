@@ -1,0 +1,30 @@
+body {
+   
+    font-family: 'Courier New', Courier, monospace;
+    padding: 3rem;
+    background-color: lightcyan;
+}
+
+h1,h2{
+   font-weight: 10px;
+   color: purple;
+   text-align: center;
+}
+
+section{
+   border-block-style: dashed dotted;
+   border-blockbor-width:bolder;
+   margin-top: 10pt;
+}
+
+p{
+   font-size: 20pt;
+   font-weight: 350pt;
+   align-self: justify ;
+}
+
+img{
+   align-items: flex;
+   width: 250px;
+  border-radius: 300pt;
+}
