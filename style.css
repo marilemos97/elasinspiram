@@ -1,20 +1,34 @@
 body {
-   
+   margin:0;
     font-family: 'Courier New', Courier, monospace;
-    padding: 3rem;
-    background-color: lightcyan;
+    background-color: aliceblue;
+    text-indent: 23px;
+}
+
+header{
+   border-block-style: dotted;
+   border-block-width:bolder;
+   width: 100%;
+   height: 16rem;
 }
 
 h1,h2{
    font-weight: 10px;
-   color: purple;
+   color: red;
    text-align: center;
+   margin-top: 5px;
 }
 
 section{
-   border-block-style: dashed dotted;
-   border-blockbor-width:bolder;
-   margin-top: 10pt;
+   padding-top: 150px;
+}
+
+#imagem{
+   background: url("download (1).jpeg");
+}
+
+#container{
+   padding: 20px;
 }
 
 p{
@@ -22,9 +36,8 @@ p{
    font-weight: 350pt;
    align-self: justify ;
 }
-
-img{
-   align-items: flex;
-   width: 250px;
-  border-radius: 300pt;
+footer{
+   background-color: dimgrey;
+   border-bottom:5px dimgrey solid;
+   border-top: 3px dimgrey solid;
 }
